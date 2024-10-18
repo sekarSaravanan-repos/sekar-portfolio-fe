@@ -18,13 +18,35 @@ function App() {
       <Hero />
       <ProfessionalSummary />
       
+     
+      
+      <section id="workexpirence">
       <WorkExperience />
+      </section>
+
+
+      <section id="skills">
       <SkillsShowcase />
+      </section>
+
+      <section id="projects">
       <Projects />
+      </section>
+     
       <Awards />
+
+
+      <section id="certificates">
       <Certificates />
+      </section>
+     
       <Education />
+
+      
+   
+      <section id="contact">
       <Contact />
+      </section>
       </div>
   );
 }

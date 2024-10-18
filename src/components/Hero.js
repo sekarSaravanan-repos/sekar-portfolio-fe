@@ -30,6 +30,8 @@ const Hero = () => {
           <Typewriter
             words={[
               'Full Stack Software Developer 💻',
+              'Software Engineer 🧑‍💻',
+           
               'Automation Engineer 🤖',
               'Front End Developer 🖥️',
               'Backend Developer 🛠️',

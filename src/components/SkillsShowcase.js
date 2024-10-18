@@ -125,27 +125,31 @@ import scrumIcon from '../Assets/svgs/agile-software.svg';
 import apiIcon from '../Assets/svgs/aws-api-gateway.svg';
 import excelIcon from '../Assets/svgs/icons8-microsoft-excel.svg';
 import googleIcon from '../Assets/svgs/google-g-2015.svg';
+import expressIcon from '../Assets/svgs/expressjs-icon.svg';
+import powerAutomateIcon from '../Assets/svgs/microsoft-power-automate.svg';
 
 const skills = [
   { name: 'React', imgSrc: ReactIcon },
   { name: 'Next.js', imgSrc: nextjsIcon },
   { name: 'Node.js', imgSrc: nodejsIcon},
+  { name: 'Express.js', imgSrc: expressIcon},
   { name: 'JavaScript', imgSrc: jsIcon },
   { name: 'jQuery', imgSrc: jqueryIcon},
-  { name: 'Tailwind CSS', imgSrc: tailwindIcon},
   { name: 'Python', imgSrc: pythonIcon },
   { name: 'Django', imgSrc: djangoIcon },
   { name: 'Flask', imgSrc: flaskIcon },
   { name: 'PHP', imgSrc: phpIcon },
   { name: 'Laravel', imgSrc: laravelIcon},
   { name: 'CodeIgniter', imgSrc: codeigniterlIcon},
+  { name: 'Tailwind CSS', imgSrc: tailwindIcon},
   { name: 'MySQL', imgSrc: mysqlIcon },
   { name: 'Docker', imgSrc: dockerIcon},
   { name: 'Jenkins', imgSrc: jenkinsIcon },
   { name: 'GitHub', imgSrc: githubIcon },
   { name: 'Ubuntu', imgSrc: ubuntuIcon },
   { name: 'Machine Learning', imgSrc: intelligenceIcon },
-  { name: 'Microsoft Power Apps', imgSrc: microsoftIcon},
+  { name: 'Power Apps', imgSrc: microsoftIcon},
+  { name: 'Power Automater', imgSrc: powerAutomateIcon},
   { name: 'Azure', imgSrc: azureIcon },
   { name: 'Power BI', imgSrc: powerbiIcon },
   { name: 'ChatGPT', imgSrc: chatgptIcon },

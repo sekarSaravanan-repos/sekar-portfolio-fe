@@ -1,26 +1,3 @@
-// import React from 'react';
-
-// const Header = () => {
-//   return (
-//     <header className="bg-gray-800 text-white py-4">
-//       <nav className="container mx-auto flex justify-between">
-//         <h1 className="text-2xl font-bold">Sekar's Dev Portfolio</h1>
-//         <ul className="flex space-x-4">
-//           <li><a href="#projects" className="hover:text-yellow-500">About</a></li>
-//           <li><a href="#projects" className="hover:text-yellow-500">SKils</a></li>
-//           <li><a href="#projects" className="hover:text-yellow-500">Projects</a></li>
-//           <li><a href="#projects" className="hover:text-yellow-500">Certificates</a></li>
-
-//           <li><a href="#contact" className="hover:text-yellow-500">Contact</a></li>
-//         </ul>
-//       </nav>
-//     </header>
-//   );
-// };
-
-// export default Header;
-
-
 
 import React, { useState } from 'react';
 
@@ -30,6 +7,10 @@ const Header = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+
+const closeMenu = () => {
+  setIsOpen(false); // Close the sidebar when a link is clicked
+};
 
   return (
     <header className="bg-gray-800 text-white py-6">
@@ -52,11 +33,11 @@ const Header = () => {
 
         {/* Navigation Links */}
         <ul className={`hidden md:flex space-x-4 font-semibold`}>
-          <li><a href="#about" className="hover:text-yellow-500 transition duration-300">About</a></li>
-          <li><a href="#skills" className="hover:text-yellow-500 transition duration-300">Skills</a></li>
-          <li><a href="#projects" className="hover:text-yellow-500 transition duration-300">Work Expirenece</a></li>
-          <li><a href="#projects" className="hover:text-yellow-500 transition duration-300">Projects</a></li>
-          <li><a href="#contact" className="hover:text-yellow-500 transition duration-300">Contact</a></li>
+          {/* <li><a href="#about" className="hover:text-teal-500 transition duration-300">About</a></li> */}
+          <li><a href="#skills" className="hover:text-teal-500 transition duration-300">Skills</a></li>
+          <li><a href="#workexpirence" className="hover:text-teal-500 transition duration-300">Work Expirenece</a></li>
+          <li><a href="#projects" className="hover:text-teal-500 transition duration-300">Projects</a></li>
+          <li><a href="#contact" className="hover:text-teal-500 transition duration-300">Contact</a></li>
         </ul>
       </nav>
 
@@ -80,12 +61,12 @@ const Header = () => {
             <li className="flex items-center">
             <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 576 512">
               <path d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l448 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zm80 256l64 0c44.2 0 80 35.8 80 80c0 8.8-7.2 16-16 16L80 384c-8.8 0-16-7.2-16-16c0-44.2 35.8-80 80-80zm-32-96a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zm256-32l128 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-128 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64l128 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-128 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64l128 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-128 0c-8.8 0-16-7.2-16-16s7.2-16 16-16z"/></svg>
-              <a href="#about" className="hover:text-yellow-500">About</a>
+              <a href="#about" className="hover:text-yellow-500" onClick={closeMenu}>About</a>
             </li>
             <li className="flex items-center">
             <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 640 512">
               <path d="M96 64c0-17.7 14.3-32 32-32l32 0c17.7 0 32 14.3 32 32l0 160 0 64 0 160c0 17.7-14.3 32-32 32l-32 0c-17.7 0-32-14.3-32-32l0-64-32 0c-17.7 0-32-14.3-32-32l0-64c-17.7 0-32-14.3-32-32s14.3-32 32-32l0-64c0-17.7 14.3-32 32-32l32 0 0-64zm448 0l0 64 32 0c17.7 0 32 14.3 32 32l0 64c17.7 0 32 14.3 32 32s-14.3 32-32 32l0 64c0 17.7-14.3 32-32 32l-32 0 0 64c0 17.7-14.3 32-32 32l-32 0c-17.7 0-32-14.3-32-32l0-160 0-64 0-160c0-17.7 14.3-32 32-32l32 0c17.7 0 32 14.3 32 32zM416 224l0 64-192 0 0-64 192 0z"/></svg>
-              <a href="#skills" className="hover:text-yellow-500">Skills</a>
+              <a href="#skills" className="hover:text-yellow-500" onClick={closeMenu}>Skills</a>
             </li>
             <li className="flex items-center">
             <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 mr-2" fill="currentColor"  viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -93,18 +74,18 @@ const Header = () => {
 </svg>
 
 
-              <a href="#projects" className="hover:text-yellow-500">Projects</a>
+              <a href="#projects" className="hover:text-yellow-500" onClick={closeMenu}>Projects</a>
             </li>
             <li className="flex items-center">
             <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 512 512">
             <path d="M211 7.3C205 1 196-1.4 187.6 .8s-14.9 8.9-17.1 17.3L154.7 80.6l-62-17.5c-8.4-2.4-17.4 0-23.5 6.1s-8.5 15.1-6.1 23.5l17.5 62L18.1 170.6c-8.4 2.1-15 8.7-17.3 17.1S1 205 7.3 211l46.2 45L7.3 301C1 307-1.4 316 .8 324.4s8.9 14.9 17.3 17.1l62.5 15.8-17.5 62c-2.4 8.4 0 17.4 6.1 23.5s15.1 8.5 23.5 6.1l62-17.5 15.8 62.5c2.1 8.4 8.7 15 17.1 17.3s17.3-.2 23.4-6.4l45-46.2 45 46.2c6.1 6.2 15 8.7 23.4 6.4s14.9-8.9 17.1-17.3l15.8-62.5 62 17.5c8.4 2.4 17.4 0 23.5-6.1s8.5-15.1 6.1-23.5l-17.5-62 62.5-15.8c8.4-2.1 15-8.7 17.3-17.1s-.2-17.4-6.4-23.4l-46.2-45 46.2-45c6.2-6.1 8.7-15 6.4-23.4s-8.9-14.9-17.3-17.1l-62.5-15.8 17.5-62c2.4-8.4 0-17.4-6.1-23.5s-15.1-8.5-23.5-6.1l-62 17.5L341.4 18.1c-2.1-8.4-8.7-15-17.1-17.3S307 1 301 7.3L256 53.5 211 7.3z"/></svg>
-              <a href="#certificates" className="hover:text-yellow-500">Certificates</a>
+              <a href="#certificates" className="hover:text-yellow-500" onClick={closeMenu}>Certificates</a>
             </li>
             <li className="flex items-center">
             <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
   <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Z" />
 </svg>
-              <a href="#contact" className="hover:text-yellow-500">Work Expirence</a>
+              <a href="#workexpirence" className="hover:text-yellow-500" onClick={closeMenu}>Work Expirence</a>
             </li>
 
             <li className="flex items-center">
@@ -114,7 +95,7 @@ const Header = () => {
 </svg>
 
   
-              <a href="#contact" className="hover:text-yellow-500">Awards</a>
+              <a href="#contact" className="hover:text-yellow-500" onClick={closeMenu}>Awards</a>
             </li>
 
             <li className="flex items-center">
@@ -123,7 +104,7 @@ const Header = () => {
 </svg>
 
   
-              <a href="#contact" className="hover:text-yellow-500">Contact</a>
+              <a href="#contact" className="hover:text-yellow-500" onClick={closeMenu}>Contact</a>
             </li>
           </ul>
         </div>
@@ -133,3 +114,4 @@ const Header = () => {
 };
 
 export default Header;
+
