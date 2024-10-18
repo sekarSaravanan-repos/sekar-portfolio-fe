@@ -117,7 +117,7 @@ import githubIcon from '../Assets/svgs/github-color-svgrepo-com.svg';
 import ubuntuIcon from '../Assets/svgs/ubuntu-svgrepo-com.svg';
 import intelligenceIcon from '../Assets/svgs/chip-intelligence-processor-svgrepo-com.svg';
 import microsoftIcon from '../Assets/svgs/icons8-microsoft-power-apps.svg';
-import azureIcon from '../Assets/svgs/azure-v2-svgrepo-com.svg';
+import azureIcon from '../Assets/svgs/azure-svgrepo-com.svg';
 import powerbiIcon from '../Assets/svgs/power-bi-icon.svg';
 import chatgptIcon from '../Assets/svgs/chatgpt-icon.svg';
 import figmaIcon from '../Assets/svgs/figma-svgrepo-com.svg';
@@ -127,6 +127,7 @@ import excelIcon from '../Assets/svgs/icons8-microsoft-excel.svg';
 import googleIcon from '../Assets/svgs/google-g-2015.svg';
 import expressIcon from '../Assets/svgs/expressjs-icon.svg';
 import powerAutomateIcon from '../Assets/svgs/microsoft-power-automate.svg';
+import sqlliteIcon from '../Assets/svgs/sqlite-svgrepo-com.svg';
 
 const skills = [
   { name: 'React', imgSrc: ReactIcon },
@@ -143,6 +144,7 @@ const skills = [
   { name: 'CodeIgniter', imgSrc: codeigniterlIcon},
   { name: 'Tailwind CSS', imgSrc: tailwindIcon},
   { name: 'MySQL', imgSrc: mysqlIcon },
+  { name: 'Sql Lite', imgSrc: sqlliteIcon },
   { name: 'Docker', imgSrc: dockerIcon},
   { name: 'Jenkins', imgSrc: jenkinsIcon },
   { name: 'GitHub', imgSrc: githubIcon },

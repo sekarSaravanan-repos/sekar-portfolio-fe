@@ -23,7 +23,7 @@ const EducationDetails = () => {
 
   return (
     <div className="education-section">
-      <h2 className="education-heading text-3xl text-center mb-10  font-bold text-sky-700">Education</h2>
+      <h2 className="education-heading text-3xl text-center mb-10  font-bold text-sky-700">Learning Journey</h2>
   
       <div className="education-container">
         <motion.div

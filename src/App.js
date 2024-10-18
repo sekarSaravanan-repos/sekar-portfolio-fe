@@ -9,6 +9,7 @@ import ProfessionalSummary from './components/Summary';
 import Awards from './components/Awards';
 import Certificates from './components/Certifications';
 import Education from './components/Education';
+import Professinaljourny from './components/ProfessinalJourny';
 
 
 function App() {
@@ -41,6 +42,8 @@ function App() {
       </section>
      
       <Education />
+      <Professinaljourny />
+      
 
       
    

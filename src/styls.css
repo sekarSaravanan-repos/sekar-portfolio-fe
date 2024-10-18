@@ -104,7 +104,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 70vh;
+  height: 50vh;
   background-color: #fff;
   padding: 20px;
   /* margin-top: 10px; */
@@ -112,7 +112,7 @@
 
 .education-heading {
   font-size: 32px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .education-container {
