@@ -10,6 +10,7 @@ import Awards from './components/Awards';
 import Certificates from './components/Certifications';
 import Education from './components/Education';
 import Professinaljourny from './components/ProfessinalJourny';
+import Professinaloverview from './components/professinaloverview';
 
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
      
       <Education />
       <Professinaljourny />
+      <Professinaloverview />
       
 
       
