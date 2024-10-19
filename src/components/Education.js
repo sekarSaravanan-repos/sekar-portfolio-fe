@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import Degree from '../image/icons8-degree-100.png';
+import Degree from '../image/degreehat.jpg';
 
 const EducationDetails = () => {
   const [loading, setLoading] = useState(true);

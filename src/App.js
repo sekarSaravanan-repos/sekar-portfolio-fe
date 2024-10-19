@@ -42,7 +42,12 @@ function App() {
       <Certificates />
       </section>
      
+
+      <section id="education">
       <Education />
+      </section>
+
+    
       <Professinaljourny />
       <Professinaloverview />
       

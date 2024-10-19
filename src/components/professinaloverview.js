@@ -68,7 +68,7 @@ import AOS from 'aos';  // Import AOS
 import image1 from '../image/workexpirencenew.png';
 import image2 from '../image/fullstacknewone.png';
 import image3 from '../image/frameworksnewone.png';
-import image4 from '../image/programfit.png';
+import image4 from '../image/programming-new-ones.png';
 import image5 from '../image/meeting.png';
 import image6 from '../image/automation.png';
 

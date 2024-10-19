@@ -269,7 +269,7 @@ const projects = [
     description: 'A comprehensive online education portal designed for learners and mentors, managing both backend and frontend development.',
     role: 'Full Stack Developer',
     techStack: 'PHP CodeIgniter, JavaScript, jQuery, Bootstrap CSS, MySQL',
-    siteLink: 'https://example-cdms.com', // Example link
+    siteLink: 'https://ibyteslms.mo.vc/cdms/', // Example link
   },
   {
     year: '2022',
@@ -279,7 +279,7 @@ const projects = [
     description: 'Invoice Generation System developed with Python Django and JavaScript for a responsive UI.',
     role: 'Backend Developer',
     techStack: 'Python Django, JavaScript, jQuery, Bootstrap CSS, MySQL',
-    siteLink: 'https://example-cdms.com', // Example link
+    siteLink: 'https://irock.mo.vc/', // Example link
   },
   {
     year: '2023',

@@ -1,5 +1,7 @@
 
 import React, { useState } from 'react';
+import logo from '../Assets/logo/logo-no-background.png'; // Update the path to your actual logo image
+// import logo from '../Assets/logo/svg/logo-no-background.svg'; // Update the path to your actual logo image
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false); // State to manage mobile menu visibility
@@ -15,9 +17,18 @@ const closeMenu = () => {
   return (
     <header className="bg-gray-800 text-white py-6">
       <nav className="container mx-auto flex justify-between items-center">
-      <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-teal-300">
-  Sekar's Portfolio
-</h1>        
+
+  {/* Logo and Title */}
+  <div className="flex items-center space-x-3">
+          <img
+            src={logo} // Replace with the actual path to your logo
+            alt="Logo"
+            className="h-10 w-10" // Adjust the height and width as needed
+          />
+          <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-teal-300">
+            Sekar's Portfolio
+          </h1>
+        </div>
         {/* Mobile menu button */}
         <div className="md:hidden">
           <button
@@ -33,7 +44,7 @@ const closeMenu = () => {
 
         {/* Navigation Links */}
         <ul className={`hidden md:flex space-x-4 font-semibold`}>
-          {/* <li><a href="#about" className="hover:text-teal-500 transition duration-300">About</a></li> */}
+          <li><a href="#education" className="hover:text-teal-500 transition duration-300">Highlights</a></li>
           <li><a href="#skills" className="hover:text-teal-500 transition duration-300">Skills</a></li>
           <li><a href="#workexpirence" className="hover:text-teal-500 transition duration-300">Work Expirenece</a></li>
           <li><a href="#projects" className="hover:text-teal-500 transition duration-300">Projects</a></li>
@@ -95,7 +106,7 @@ const closeMenu = () => {
 </svg>
 
   
-              <a href="#contact" className="hover:text-yellow-500" onClick={closeMenu}>Awards</a>
+              <a href="#Awards" className="hover:text-yellow-500" onClick={closeMenu}>Awards</a>
             </li>
 
             <li className="flex items-center">
