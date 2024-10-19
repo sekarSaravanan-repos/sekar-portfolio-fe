@@ -1,8 +1,15 @@
 {
   "files": {
-    "main.css": "/sekar-portfolio-fe/static/css/main.7202dda3.css",
-    "main.js": "/sekar-portfolio-fe/static/js/main.9e8c5c1e.js",
+    "main.css": "/sekar-portfolio-fe/static/css/main.c1f84c50.css",
+    "main.js": "/sekar-portfolio-fe/static/js/main.17eda116.js",
     "static/js/453.acca0757.chunk.js": "/sekar-portfolio-fe/static/js/453.acca0757.chunk.js",
+    "static/media/degreehat.jpg": "/sekar-portfolio-fe/static/media/degreehat.76a37da6a5de8d102f63.jpg",
+    "static/media/frameworksnewone.png": "/sekar-portfolio-fe/static/media/frameworksnewone.8cee3214c8e4d489c676.png",
+    "static/media/meeting.png": "/sekar-portfolio-fe/static/media/meeting.97039df6446218844bd3.png",
+    "static/media/automation.png": "/sekar-portfolio-fe/static/media/automation.8fca85f75eeda9fb337c.png",
+    "static/media/fullstacknewone.png": "/sekar-portfolio-fe/static/media/fullstacknewone.4213c202837311b2d23b.png",
+    "static/media/workexpirencenew.png": "/sekar-portfolio-fe/static/media/workexpirencenew.e2c3e323252c31730997.png",
+    "static/media/programming-new-ones.png": "/sekar-portfolio-fe/static/media/programming-new-ones.ab23f35de9f57c42e4ab.png",
     "static/media/myawardf.png": "/sekar-portfolio-fe/static/media/myawardf.078c8cbd66339f9d7e4e.png",
     "static/media/myawardfi.png": "/sekar-portfolio-fe/static/media/myawardfi.dc03aa870b8017606cae.png",
     "static/media/jenkins-svgrepo-com.svg": "/sekar-portfolio-fe/static/media/jenkins-svgrepo-com.680d9ffa39829760e67c2b90cb6897cd.svg",
@@ -12,8 +19,11 @@
     "static/media/certificate_1.png": "/sekar-portfolio-fe/static/media/certificate_1.2e9f29c71e3eb02a833f.png",
     "static/media/certificate_2.png": "/sekar-portfolio-fe/static/media/certificate_2.a4ea42b1b1e295e8e149.png",
     "static/media/flask-svgrepo-com.svg": "/sekar-portfolio-fe/static/media/flask-svgrepo-com.f74879d56c9294439efcb2f1eaaabf6d.svg",
+    "static/media/logo-no-background.png": "/sekar-portfolio-fe/static/media/logo-no-background.dd63441898670a4510a2.png",
     "static/media/node-js-svgrepo-com.svg": "/sekar-portfolio-fe/static/media/node-js-svgrepo-com.4d8b9a0c5a604b6b68d3750273f913d6.svg",
+    "static/media/sqlite-svgrepo-com.svg": "/sekar-portfolio-fe/static/media/sqlite-svgrepo-com.afde1dbf5dd00a601da7a06ac858e37e.svg",
     "static/media/codeigniter-svgrepo-com.svg": "/sekar-portfolio-fe/static/media/codeigniter-svgrepo-com.d80fa59977b9b04d6e679caac8e012f3.svg",
+    "static/media/azure-svgrepo-com.svg": "/sekar-portfolio-fe/static/media/azure-svgrepo-com.43edfdc4f668c89571c9865a915aac21.svg",
     "static/media/agile-software.svg": "/sekar-portfolio-fe/static/media/agile-software.f1bc37bbffea29ab653145d197153343.svg",
     "static/media/mysql-logo-svgrepo-com.svg": "/sekar-portfolio-fe/static/media/mysql-logo-svgrepo-com.5dbd7ffb56a921cecde426cca82f0df4.svg",
     "static/media/python-svgrepo-com.svg": "/sekar-portfolio-fe/static/media/python-svgrepo-com.584d8e8274929c83b3afe4d258e31753.svg",
@@ -27,22 +37,23 @@
     "static/media/aws-api-gateway.svg": "/sekar-portfolio-fe/static/media/aws-api-gateway.1de9f8ac8c5d4da2174465378fb00971.svg",
     "static/media/google-g-2015.svg": "/sekar-portfolio-fe/static/media/google-g-2015.094423a871742c6a0d2598199fd106e9.svg",
     "static/media/chip-intelligence-processor-svgrepo-com.svg": "/sekar-portfolio-fe/static/media/chip-intelligence-processor-svgrepo-com.ee7a077440180cdf684edc7b906b93e9.svg",
+    "static/media/microsoft-power-automate.svg": "/sekar-portfolio-fe/static/media/microsoft-power-automate.f6dde7267fdc1bf1872d543832b11869.svg",
     "static/media/react-1-logo-svgrepo-com.svg": "/sekar-portfolio-fe/static/media/react-1-logo-svgrepo-com.f57b6fbfa6088fd494c122d781342874.svg",
     "static/media/jquery-svgrepo-com.svg": "/sekar-portfolio-fe/static/media/jquery-svgrepo-com.84b9d9237e8023879f81d26541e610fc.svg",
     "static/media/docker-svgrepo-com (1).svg": "/sekar-portfolio-fe/static/media/docker-svgrepo-com (1).402471a8309d58457b2412d97000f7cb.svg",
     "static/media/figma-svgrepo-com.svg": "/sekar-portfolio-fe/static/media/figma-svgrepo-com.f577500fbb0169a31432949661d68597.svg",
-    "static/media/azure-v2-svgrepo-com.svg": "/sekar-portfolio-fe/static/media/azure-v2-svgrepo-com.5d8be7dcf665d2ed909fb0fef66914d9.svg",
     "static/media/django-svgrepo-com.svg": "/sekar-portfolio-fe/static/media/django-svgrepo-com.c53d7b212d9f61013c22718e7ea29987.svg",
+    "static/media/expressjs-icon.svg": "/sekar-portfolio-fe/static/media/expressjs-icon.632d3c32e6c8f71f7f7faf4fb71b945b.svg",
     "index.html": "/sekar-portfolio-fe/index.html",
     "static/media/tailwind-css-2.svg": "/sekar-portfolio-fe/static/media/tailwind-css-2.315d0ac2a2708d5f06972906113dfbf1.svg",
     "static/media/icons8-microsoft-excel.svg": "/sekar-portfolio-fe/static/media/icons8-microsoft-excel.d53be40796cec2eb08485bb9fddce81d.svg",
     "static/media/javascript-1.svg": "/sekar-portfolio-fe/static/media/javascript-1.b879f838faf1cb951d1c2230fd933a39.svg",
-    "main.7202dda3.css.map": "/sekar-portfolio-fe/static/css/main.7202dda3.css.map",
-    "main.9e8c5c1e.js.map": "/sekar-portfolio-fe/static/js/main.9e8c5c1e.js.map",
+    "main.c1f84c50.css.map": "/sekar-portfolio-fe/static/css/main.c1f84c50.css.map",
+    "main.17eda116.js.map": "/sekar-portfolio-fe/static/js/main.17eda116.js.map",
     "453.acca0757.chunk.js.map": "/sekar-portfolio-fe/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7202dda3.css",
-    "static/js/main.9e8c5c1e.js"
+    "static/css/main.c1f84c50.css",
+    "static/js/main.17eda116.js"
   ]
 }
