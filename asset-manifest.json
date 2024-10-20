@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sekar-portfolio-fe/static/css/main.c1f84c50.css",
-    "main.js": "/sekar-portfolio-fe/static/js/main.17eda116.js",
+    "main.css": "/sekar-portfolio-fe/static/css/main.507ec971.css",
+    "main.js": "/sekar-portfolio-fe/static/js/main.250dd9c3.js",
     "static/js/453.acca0757.chunk.js": "/sekar-portfolio-fe/static/js/453.acca0757.chunk.js",
     "static/media/degreehat.jpg": "/sekar-portfolio-fe/static/media/degreehat.76a37da6a5de8d102f63.jpg",
     "static/media/frameworksnewone.png": "/sekar-portfolio-fe/static/media/frameworksnewone.8cee3214c8e4d489c676.png",
@@ -48,12 +48,12 @@
     "static/media/tailwind-css-2.svg": "/sekar-portfolio-fe/static/media/tailwind-css-2.315d0ac2a2708d5f06972906113dfbf1.svg",
     "static/media/icons8-microsoft-excel.svg": "/sekar-portfolio-fe/static/media/icons8-microsoft-excel.d53be40796cec2eb08485bb9fddce81d.svg",
     "static/media/javascript-1.svg": "/sekar-portfolio-fe/static/media/javascript-1.b879f838faf1cb951d1c2230fd933a39.svg",
-    "main.c1f84c50.css.map": "/sekar-portfolio-fe/static/css/main.c1f84c50.css.map",
-    "main.17eda116.js.map": "/sekar-portfolio-fe/static/js/main.17eda116.js.map",
+    "main.507ec971.css.map": "/sekar-portfolio-fe/static/css/main.507ec971.css.map",
+    "main.250dd9c3.js.map": "/sekar-portfolio-fe/static/js/main.250dd9c3.js.map",
     "453.acca0757.chunk.js.map": "/sekar-portfolio-fe/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1f84c50.css",
-    "static/js/main.17eda116.js"
+    "static/css/main.507ec971.css",
+    "static/js/main.250dd9c3.js"
   ]
 }
