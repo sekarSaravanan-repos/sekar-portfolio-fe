@@ -21,12 +21,12 @@ const ContactFooter = () => {
       {/* Contact Details */}
       <div className="flex flex-col md:flex-row justify-center items-center gap-10 mb-10">
         <div className="flex items-center gap-2">
-          <img src={EmailIcon} alt="Email" className="w-6 h-6" />
-          <p className="text-lg">sekarsaravanaxxxxxxx</p>
+          <img src={EmailIcon} alt="Email" className="w-12 h-12 rounded-full bg-teal-500 p-2" />
+          <p className="text-lg">sekarsaravanan.ofz@gmail.com</p>
         </div>
         <div className="flex items-center gap-2">
-          <img src={PhoneIcon} alt="Phone" className="w-6 h-6" />
-          <p className="text-lg">8xxxx9xxxx</p>
+          <img src={PhoneIcon} alt="Phone" className="w-12 h-12 rounded-full bg-teal-500 p-2" />
+          <p className="text-lg">8946096518</p>
         </div>
       </div>
 

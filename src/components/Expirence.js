@@ -116,7 +116,7 @@ const experiences = [
     company: "Hogarth Worldwide - WPP",
     duration: "Aug 2022 - Present",
     description:
-    "Currently working as a Full Stack Developer and Python Automation Engineer, developing web applications,Desktop applications and microsoft powerapps applications"},
+    "Currently working as a Full Stack Developer and Python Automation Engineer, developing web applications,Desktop applications and microsoft powerapps applications."},
   {
     role: "Trainee Software Developer",
     company: "Xmedia SOllutions",

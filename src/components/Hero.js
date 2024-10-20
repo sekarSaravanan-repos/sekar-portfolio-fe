@@ -22,16 +22,15 @@ const Hero = () => {
   return (
     <section className="bg-gray-900 h-screen flex items-center justify-center text-center" id="home">
       <div className="container mx-auto px-4">
-      <h1 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 sm:mb-6 lg:mb-8">
+      <h1 className="text-white text-2xl sm:text-2xl md:text-3xl lg:text-5xl xl:text-6xl font-bold mb-4 sm:mb-6 lg:mb-8">
   Hi, I'm <span className="text-teal-300">Sekar Saravanan</span>
 </h1>
 
-        <h2 className="text-white text-xl sm:text-2xl md:text-3xl font-semibold">
+        <h2 className="text-white text-xl sm:text-2xl md:text-3xl font-semibold mb-16">
           <Typewriter
             words={[
               'Full Stack Software Developer 💻',
               'Software Engineer 🧑‍💻',
-           
               'Automation Engineer 🤖',
               'Front End Developer 🖥️',
               'Backend Developer 🛠️',
@@ -39,7 +38,7 @@ const Hero = () => {
               'Microsoft PowerApps Developer 🚀', 
               'Full Stack Web Developer 🌐',
             ]}
-            loop={4}
+            loop={40}
             cursor
             cursorStyle="|"
             typeSpeed={60}
@@ -47,7 +46,7 @@ const Hero = () => {
             delaySpeed={950}
           />
         </h2>
-        <p className="mt-16 text-base sm:text-lg md:text-xl text-slate-100">
+        <p className="m Digital Resumet-16 text-base sm:text-lg md:text-xl text-slate-100">
           "Experienced Full Stack Software Developer with over 5 years in the IT industry."
         </p>
         <a
